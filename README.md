@@ -5,25 +5,31 @@
 An alternate stylesheet for [Chosen 1.0](http://harvesthq.github.com/chosen/). This
 one is supposed to integrate better with [Bootstrap 3.0](http://getbootstrap.com/).
 
-[Here's the example page](http://alxlit.github.io/bootstrap-chosen/).
+It uses font-awesome rather than sprites.
 
-How you add `bootstrap-chosen.less` to your build process is up to you. Just keep
-in mind that it needs access to `variables.less` and `mixins.less`.
+How to
+======
 
-You can tinker with the example page by:
+* Clone chosen-bootstrap-fontawesome
 
-```
-$ git clone https://github.com/alxlit/bootstrap-chosen
-$ cd bootstrap-chosen
-bootstrap-chosen $ git clone --depth=1 https://github.com/twbs/bootstrap
-bootstrap-chosen $ vi bootstrap/less/bootstrap.less
+        $ git clone https://github.com/marcioAlmada/chosen-bootstrap-fontawesome.git
 
-// Add this to the bottom
-@import "../../bootstrap-chosen.less";
+* Add the following lines to `chosen.less`
 
-bootstrap-chosen $ lessc bootstrap/less/bootstrap.less > bootstrap.css
-bootstrap-chosen $ firefox example.html
-```
+        @import 'path_to_bootstrap_less_files/variables.less';
+        @import 'path_to_bootstrap_less_files/mixins.less';
+    
+* Compile `chosen.less`
+
+        $ lessc chosen.less > chosen.css
+
+* You can also do the opposite and import `chosen.less` file inside `bootstrap.less` and compile bootstrap again.
+
+Prerequisites
+=============
+
+https://github.com/twitter/bootstrap/
+https://github.com/FortAwesome/Font-Awesome
 
 License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
 
