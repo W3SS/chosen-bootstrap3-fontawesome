@@ -157,14 +157,10 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 18px;
-}
-.chosen-container-single .chosen-single div b {
-  display: block;
-  height: 100%;
-  width: 100%;
+  padding: 4px 12px;
 }
 .chosen-container-single .chosen-single div b:after {
+  display: inline;
   content: '\f078';
   font-family: FontAwesome;
 }
