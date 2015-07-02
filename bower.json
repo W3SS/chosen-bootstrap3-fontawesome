@@ -1,23 +1,21 @@
 {
-  "name": "bootstrap-chosen",
-  "version": "1.0.0",
-  "homepage": "https:\/\/github.com\/alxlit\/bootstrap-chosen",
+  "name": "chosen-bootstrap3-fontawesome",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CjS77/bootstrap-chosen.git",
   "authors": [
+    "CjS77 <cayle.sharrock@gmail.com>",
     "alxlit <alxlit+github@alxlit.name>"
   ],
-  "description": "An alternate stylesheet for Chosen (http://harvesthq.github.com/chosen/).",
+  "description": "An alternate stylesheet for Chosen (http://harvesthq.github.com/chosen/) using bootstrap3 and FontAwesome.",
   "keywords": [
     "bootstrap",
-    "chosen"
+    "chosen",
+    "fontAwesome"
   ],
   "license": "MIT",
   "main": [
     "bootstrap-chosen-variables.less", 
-    "bootstrap-chosen-variables.scss",
-    "bootstrap-chosen.less",
-    "bootstrap-chosen.scss",
-    "chosen-sprite.png",
-    "chosen-sprite@2x.png"
+    "bootstrap-chosen.less"
   ],
   "ignore": [
     "example.*"

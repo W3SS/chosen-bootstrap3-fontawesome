@@ -25,6 +25,11 @@ How to
 
 * You can also do the opposite and import `chosen.less` file inside `bootstrap.less` and compile bootstrap again.
 
+Example
+=======
+
+![Example dropdown][example.png]
+
 Prerequisites
 =============
 
