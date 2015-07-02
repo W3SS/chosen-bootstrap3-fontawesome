@@ -10,24 +10,21 @@ It uses font-awesome rather than sprites.
 How to
 ======
 
-* Clone chosen-bootstrap-fontawesome
+* Install
 
-        $ git clone https://github.com/marcioAlmada/chosen-bootstrap-fontawesome.git
+        $ bower install --save chosen-bootstrap3-fontawesome
 
-* Add the following lines to `chosen.less`
+* In your main less file:
 
         @import 'path_to_bootstrap_less_files/variables.less';
         @import 'path_to_bootstrap_less_files/mixins.less';
-    
-* Compile `chosen.less`
+        @import 'path_to_chosen-bootstrap3-fontawesome/bootstrap-chosen.less'
 
-        $ lessc chosen.less > chosen.css
+Then compile your less as part of your build process
+                
+**OR** to use the precompiled .css
 
-* You can also do the opposite and import `chosen.less` file inside `bootstrap.less` and compile bootstrap again.
-
-Example
-=======
-
+        <link rel="stylesheet" href="path_to_chosen-bootstrap3-fontawesome/bootstrap-chosen.css" />
 
 
 Prerequisites
