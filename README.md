@@ -1,6 +1,6 @@
-# bootstrap-chosen (less/sass)
+# bootstrap-chosen (less)
 
-![](https://github.com/alxlit/bootstrap-chosen/raw/master/example.png)
+![Example dropdown](https://raw.githubusercontent.com/CjS77/bootstrap-chosen/master/example.png)
 
 An alternate stylesheet for [Chosen 1.0](http://harvesthq.github.com/chosen/). This
 one is supposed to integrate better with [Bootstrap 3.0](http://getbootstrap.com/).
@@ -28,7 +28,7 @@ How to
 Example
 =======
 
-![Example dropdown][example.png]
+
 
 Prerequisites
 =============
